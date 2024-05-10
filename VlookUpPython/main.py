@@ -19,8 +19,8 @@ import re
 
 
 # file_path= "D:/DEV/Python projects/agribank-data-analyser/"
-file_path = "./"
-img = Image.open(os.path.join(file_path, 'inner.PNG'))
+file_path = "C:/Users/edwinch/PycharmProject/VlookUpPython/VlookUpPython"
+img = Image.open(os.path.join(file_path, 'dataapp.png'))
 # this should the first thing to do before you run anything else
 
 st.set_page_config(page_title='Edwin | DATA APP', page_icon=img, layout="wide", initial_sidebar_state="expanded")
