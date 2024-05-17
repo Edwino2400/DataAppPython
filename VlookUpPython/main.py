@@ -19,7 +19,7 @@ import re
 
 
 # file_path= "D:/DEV/Python projects/agribank-data-analyser/"
-file_path = "VlookUpPython/dataapp.png"
+file_path = "VlookUpPython"
 img = Image.open(os.path.join(file_path, 'dataapp.png'))
 # this should the first thing to do before you run anything else
 
